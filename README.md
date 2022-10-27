@@ -17,7 +17,8 @@ Authors
 - [Vitaly Puzrin](https://github.com/puzrin)
 
 
-License
--------
-View the [LICENSE](https://github.com/fontello/svg-font-dump/blob/master/LICENSE) file
-(MIT).
+## License and Copyright
+
+This software is released under the terms of the [MIT license](https://github.com/IDationTech/svg-font-dump/blob/master/LICENSE).
+
+This project is a derived version of the main project : [https://github.com/fontello/svg-font-dump](https://github.com/fontello/svg-font-dump).

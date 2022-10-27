@@ -1,19 +1,31 @@
 {
-  "name"            : "svg-font-dump",
-  "description"     : "Split SVG font to separate images",
-  "keywords"        : [ "font", "svg" ],
-  "version"         : "0.1.0",
-  "repository"      : {
-                        "type": "git",
-                        "url" : "git@github.com:fontello/svg-font-dump.git"
-                      },
-  "bin"             : { "svg-font-dump": "svg-font-dump.js" },
-  "dependencies"    : {
-                        "argparse"          : "~ 0.1.7",
-                        "fs-tools"          : "~ 0.2.6",
-                        "js-yaml"           : "~ 2.0.5",
-                        "lodash"            : "~ 1.2.1",
-                        "IDationTech/svgpath"           : "2.5.0",
-                        "xmldom"            : "~ 0.1.5"
-                      }
+  "name": "@idationtech/svg-font-dump",
+  "description": "Split SVG font to separate images",
+  "keywords": [
+    "font",
+    "svg"
+  ],
+  "version": "0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IDationTech/svg-font-dump.git"
+  },
+  "bin": {
+    "svg-font-dump": "svg-font-dump.js"
+  },
+  "dependencies": {
+    "argparse": "~ 0.1.7",
+    "fs-tools": "~ 0.2.6",
+    "js-yaml": "~ 2.0.5",
+    "lodash": "~ 1.2.1",
+    "@idationtech/svgpath": "2.5.2",
+    "xmldom": "~ 0.1.5"
+  },
+  "homepage": "https://github.com/IDationTech/svg-font-dump#readme",
+  "main": "svg-font-dump.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
 }
